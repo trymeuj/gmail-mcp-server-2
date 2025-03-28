@@ -1,0 +1,13 @@
+# Ignore OAuth keys (ALREADY EXISTS, but ensure it's added)
+gcp-oauth.keys.json
+
+# Ignore compiled and cache files
+__pycache__/
+dist/
+node_modules/
+
+# Ignore dependency lock files (optional, unless needed for version control)
+pnpm-lock.yaml
+
+# Ignore environment configuration (if using .env for secrets)
+.env

@@ -1,0 +1,42 @@
+{
+  "name": "@shinzolabs/gmail-mcp",
+  "version": "1.0.3",
+  "description": "Gmail MCP - Provides Gmail API access with file-based OAuth2 authentication",
+  "type": "module",
+  "bin": {
+    "gmail-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node ./dist/index.js",
+    "auth": "node ./dist/index.js auth"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "googleapis": "^129.0.0",
+    "google-auth-library": "^9.6.3",
+    "open": "^9.1.0",
+    "ts-node": "^10.9.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "gmail",
+    "mcp",
+    "claude",
+    "anthropic",
+    "email"
+  ],
+  "author": "Austin Born (austin@shinzolabs.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinzo-labs/gmail-mcp"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
