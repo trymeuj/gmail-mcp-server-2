@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/trymeuj-gmail-mcp-server-2-badge.png)](https://mseep.ai/app/trymeuj-gmail-mcp-server-2)
+
 # Gmail MCP
 
 <div style="background-color: #ff4d4d; color: white; padding: 15px; margin: 20px 0; border-radius: 5px; font-size: 18px; text-align: center;">
